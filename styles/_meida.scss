@@ -1,0 +1,125 @@
+@media screen and (max-width: 600px) {
+    header {
+        padding: 0 !important;
+    }
+
+    header .right-header {
+        padding: 2rem !important;
+    }
+
+    .theme-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 3rem;
+    }
+
+    .left-header {
+        .h-shape {
+            display: none;
+        }
+    }
+
+    .right-header {
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+
+        .name {
+            font-size: 2rem !important;
+        }
+    }
+
+    .controlls {
+        top: auto;
+        bottom: 0;
+        left: 50%;
+        width: 100%;
+        background-color: var(--color-grey5);
+        flex-flow: row;
+        justify-content: center;
+        transform: translateX(-50%);
+
+        .control {
+            margin: 1rem .3rem;
+        }
+    }
+
+    // About
+
+    .about-container {
+        grid-template-columns: 1fr;
+
+        .right-about {
+            padding-top: 2rem;
+            grid-template-columns: 1fr;
+        }
+        .left-about {
+            padding-right: 0;
+            p {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        padding-bottom: 3rem;
+    }
+
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+    .portfolios {
+        grid-template-columns: 1fr;
+        padding-bottom: .5rem;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        padding-bottom: 3rem;
+    }
+
+    .contact-content-con {
+        flex-flow: column;
+        display: block;
+        .right-contact {
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+    .contact-content-con .right-contact .i-c-2 {
+        flex-flow: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child {
+        margin-left: 0 !important;
+        margin-top: 1.5rem;
+    }
+    .main-title {
+        h2 {
+            font-size: 1.5rem;
+            span {
+                font-size: 2rem;
+            }
+            .bg-text {
+                font-size: 2rem;
+            }
+        }
+    }
+
+
+    .section {
+        padding: 2rem 2.5rem;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+}

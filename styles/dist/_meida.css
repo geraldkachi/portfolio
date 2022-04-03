@@ -81,6 +81,9 @@
     flex-flow: column;
     display: block;
   }
+  .contact-content-con .left-contact {
+    font-size: 0.9rem;
+  }
   .contact-content-con .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;

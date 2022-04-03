@@ -683,6 +683,7 @@ section {
 
     .left-contact {
         flex: 2;
+        font-size: .9rem;
 
         h4 {
             margin-top: 1rem;
@@ -709,11 +710,15 @@ section {
                 .icon {
                     display: grid;
                     grid-template-columns: 20px 1fr;
+                    
 
                     i {
                         display: flex;
                         align-items: center;
                         font-size: 1.2rem;
+                    }
+                    span {
+                        margin-left: 10px;
                     }
                 }
             }

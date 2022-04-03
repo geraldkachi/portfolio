@@ -821,6 +821,7 @@ section {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
+  font-size: .9rem;
 }
 
 .contact-content-con .left-contact h4 {
@@ -866,6 +867,10 @@ section {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.2rem;
+}
+
+.contact-content-con .left-contact .contact-info .contact-item .icon span {
+  margin-left: 10px;
 }
 
 .contact-content-con .left-contact .contact-icon {
@@ -1084,6 +1089,9 @@ section {
         -ms-flex-flow: column;
             flex-flow: column;
     display: block;
+  }
+  .contact-content-con .left-contact {
+    font-size: .9rem;
   }
   .contact-content-con .right-contact {
     margin-left: 0;
